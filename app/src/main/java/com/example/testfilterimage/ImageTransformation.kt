@@ -33,7 +33,9 @@ class ImageTransformation(
         }
         canvas.drawBitmap(input, 0f, 0f, overlayPaint)
 
+        // Simulate a bigger transformation
         delay(3000)
+
         return output
     }
 }
